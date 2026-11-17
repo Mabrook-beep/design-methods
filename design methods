@@ -1,0 +1,15 @@
+def get_scores():
+    return [60, 75, 90]
+
+def calculate_average(scores):
+    return sum(scores) / len(scores)
+
+def show_result(average):
+    print("Average score:", average)
+
+def main():
+    scores = get_scores()
+    average = calculate_average(scores)
+    show_result(average)
+
+main()
